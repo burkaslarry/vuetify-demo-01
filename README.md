@@ -32,9 +32,37 @@ npm install
 
 Build the project using the following command: 
 
+
+1. Install Command Line for Vue 
+
 ```
-npm run build
+npm install -g @vue/cli
 ```
+
+2. Install Command Line for Vue Service
+
+```
+npm install -g @vue/cli-service
+```
+
+3. Execute npm run to select which vue-cli-service commadn to run 
+
+```
+npm run 
+```
+
+4. Execute Project using 
+
+(DEV)
+```
+npx vue-cli-service serve 
+```
+
+(PROD)
+``` 
+npx vue-cli-service build 
+```
+
 
 
 
